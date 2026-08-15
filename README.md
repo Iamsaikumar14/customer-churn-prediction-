@@ -116,8 +116,5 @@ The notebooks in `notebooks/` should be run in order (01 → 04) if regenerating
 - Churn is defined via a fixed 90-day inactivity threshold — a simplification of true non-contractual churn behavior, which in reality varies by customer purchase cycle.
 - Gamma-Gamma's independence assumption (spend independent of frequency) shows a mild violation in this dataset (correlation ≈ 0.17), which may introduce slight bias in LTV estimates for the highest-frequency customers.
 - LTV estimates apply only to repeat customers (63.9% of the base); one-time buyers receive a transaction-count forecast but no monetary LTV, by design.
-## Author
- 
-**Deepak**
 
  
